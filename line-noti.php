@@ -19,7 +19,6 @@ $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('à¸¡à¸
 $response = $bot->pushMessage($idPush, $textMessageBuilder);
 // $response = $bot->pushMessage($idPush,(new \LINE\LINEBot\MessageBuilder\MultiMessageBuilder())->add(new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('text1', 'text2'));
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
-echo 'TST';
 // if($count >= 10 )
 // {
 //     $access_token = 'ynV7OSbgW8UlzOBx9qhiq36u2kr3yYLDA4X8L+wMUTATsdMOYLVJ7wdS5yzfkpP5Li4yrZ9rY5lafnA6f+yucaBilbI6O834tnIiXapVybsVEDvqDBbJhQLqmrrRdm9dyNGn1Tyh75a6BWefA+limwdB04t89/1O/w1cDnyilFU=';
