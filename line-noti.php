@@ -8,7 +8,6 @@ $userid = $_GET['userid'];
  $name_pk = $_GET['name_pk'];
  $license = $_GET['license'];
 
-echo 'TEST';
 $access_token = 'ynV7OSbgW8UlzOBx9qhiq36u2kr3yYLDA4X8L+wMUTATsdMOYLVJ7wdS5yzfkpP5Li4yrZ9rY5lafnA6f+yucaBilbI6O834tnIiXapVybsVEDvqDBbJhQLqmrrRdm9dyNGn1Tyh75a6BWefA+limwdB04t89/1O/w1cDnyilFU=';
 $channelSecret = '5e48ec085f1d1c42c86b9cf8486abbeb';
 $idPush = 'U9126c7bdf7e1a36a8d18919dc600429d';
